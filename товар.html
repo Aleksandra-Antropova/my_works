@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Товар</title>
+  <style>
+    /* CSS стили для макета */
+    .container {
+      display: flex;
+    }
+    .gallery {
+      flex: 1;
+    }
+    .description {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="gallery">
+      <!-- Галерея изображений -->
+      <img src="file:///Users/aleksandra/Desktop/%D0%BA%D0%BE%D0%B4/image1.jpeg" alt="Изображение 1">
+    </div>
+    <div class="description">
+      <!-- Описание товара -->
+      <h2>Altenew - Crisp Dye Inks - Reinker - Coral Berry</h2>
+      <p>Цена: 7.95</p>
+      <p>Описание: Refresh and remoisten your ink pads with our re-inkers! These are perfect for all of our full sized oval ink pads and mini cube ink pads. Each re-inker contains approx. 0.5 oz of ink.</p>
+      <label for="quantity">Количество: 1</label>
+      <input type="number" id="quantity" name="quantity" min="1" value="1">
+      <br>
+      <label>
+        <input type="checkbox" name="availability" checked> В наличии
+      </label>
+    </div>
+  </div>
+</body>
+</html>
